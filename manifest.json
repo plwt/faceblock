@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "faceblock",
-  "version": "0.1",
+  "version": "1.0",
   "description": "Installing this extension will block all websites linked to facebook.",
   "author": "Seburo",
   "content_scripts": [{
@@ -19,7 +19,8 @@
 	"*://*.oculus.com/*",
 	"*://*.privatecore.com/*",
 	"*://*.tbhtime.com/*",
-	"*://*.sanzaru.com/*"	
+	"*://*.sanzaru.com/*",
+	"*://*.giphy.com/*"    
     ],
     "js": ["content.js"],
     "run_at": "document_start"},
@@ -38,7 +39,8 @@
 	"*://*.oculus.com/*",
 	"*://*.privatecore.com/*",
 	"*://*.tbhtime.com/*",
-	"*://*.sanzaru.com/*"
+	"*://*.sanzaru.com/*",
+	"*://*.giphy.com/*"    
     ],
     "js": ["aftercontent.js"],
     "run_at": "document_end"}
