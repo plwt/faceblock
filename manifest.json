@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "faceblock",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Installing this extension will block all websites linked to facebook.",
   "author": "Seburo",
   "content_scripts": [{
@@ -20,6 +20,7 @@
 	"*://*.privatecore.com/*",
 	"*://*.tbhtime.com/*",
 	"*://*.sanzaru.com/*",
+	"*://*.meta.com/*",
 	"*://*.giphy.com/*"    
     ],
     "js": ["content.js"],
@@ -40,6 +41,7 @@
 	"*://*.privatecore.com/*",
 	"*://*.tbhtime.com/*",
 	"*://*.sanzaru.com/*",
+	"*://*.meta.com/*",
 	"*://*.giphy.com/*"    
     ],
     "js": ["aftercontent.js"],
